@@ -1,0 +1,23 @@
+{
+  "name": "@rspack-example/module-federation-v1.5-lib1",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@module-federation/runtime": "^2.9.2",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "^1.23.5",
+    "@vitejs/plugin-react": "^6.1.2",
+    "cross-env": "*",
+    "vite": "^8.3.3"
+  }
+}

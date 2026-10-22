@@ -1,0 +1,26 @@
+{
+  "name": "@rspack-example/module-federation-v1.5-app",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "node server",
+    "build:client": "vite build --outDir dist/client",
+    "build:server": "vite build --outDir dist/server --ssr src/entry-server.jsx"
+  },
+  "dependencies": {
+    "@module-federation/runtime": "^2.9.2",
+    "compression": "^1.8.2",
+    "express": "^5.2.1",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "sirv": "^3.0.2"
+  },
+  "devDependencies": {
+    "@module-federation/vite": "^1.23.5",
+    "@vitejs/plugin-react": "5.1.4",
+    "serve": "14.2.6",
+    "vite": "8.1.0"
+  }
+}
